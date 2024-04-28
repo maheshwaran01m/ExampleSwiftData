@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */; };
 		3DE10E272BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE10E262BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift */; };
 		3DE10E292BDDDCFB0062E7E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE10E282BDDDCFB0062E7E4 /* ContentView.swift */; };
 		3DE10E2B2BDDDCFC0062E7E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE10E2A2BDDDCFC0062E7E4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		3DE10E232BDDDCFB0062E7E4 /* ExampleSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE10E262BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftDataApp.swift; sourceTree = "<group>"; };
 		3DE10E282BDDDCFB0062E7E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC3E7C02BDDDEDD00C178B2 /* ViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */,
+			);
+			path = ViewExtensions;
+			sourceTree = "<group>";
+		};
 		3DE10E1A2BDDDCFB0062E7E4 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		3DE10E352BDDDD150062E7E4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3DC3E7C02BDDDEDD00C178B2 /* ViewExtensions */,
 				3DE10E282BDDDCFB0062E7E4 /* ContentView.swift */,
 			);
 			path = Source;
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE10E292BDDDCFB0062E7E4 /* ContentView.swift in Sources */,
+				3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */,
 				3DE10E272BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
