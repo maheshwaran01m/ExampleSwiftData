@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D639B352BDDE0D70067DA3B /* SwiftDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */; };
+		3D639B372BDDE3100067DA3B /* PredicateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */; };
 		3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */; };
 		3DE10E272BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE10E262BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift */; };
 		3DE10E292BDDDCFB0062E7E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE10E282BDDDCFB0062E7E4 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExtension.swift; sourceTree = "<group>"; };
+		3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateExtensions.swift; sourceTree = "<group>"; };
 		3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		3DE10E232BDDDCFB0062E7E4 /* ExampleSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE10E262BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSwiftDataApp.swift; sourceTree = "<group>"; };
@@ -34,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D639B332BDDE0C30067DA3B /* SwiftDataExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */,
+				3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */,
+			);
+			path = SwiftDataExtensions;
+			sourceTree = "<group>";
+		};
 		3DC3E7C02BDDDEDD00C178B2 /* ViewExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 		3DE10E352BDDDD150062E7E4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3D639B332BDDE0C30067DA3B /* SwiftDataExtensions */,
 				3DC3E7C02BDDDEDD00C178B2 /* ViewExtensions */,
 				3DE10E282BDDDCFB0062E7E4 /* ContentView.swift */,
 			);
@@ -166,7 +180,9 @@
 			files = (
 				3DE10E292BDDDCFB0062E7E4 /* ContentView.swift in Sources */,
 				3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */,
+				3D639B372BDDE3100067DA3B /* PredicateExtensions.swift in Sources */,
 				3DE10E272BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift in Sources */,
+				3D639B352BDDE0D70067DA3B /* SwiftDataExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
