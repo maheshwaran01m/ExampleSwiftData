@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1541572BE2039500F49794 /* ContainerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1541562BE2039500F49794 /* ContainerManager.swift */; };
+		3D15415A2BE2127B00F49794 /* DatabaseVersion1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1541592BE2127B00F49794 /* DatabaseVersion1.swift */; };
+		3D15415C2BE212C000F49794 /* DatabaseMigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15415B2BE212C000F49794 /* DatabaseMigrationPlan.swift */; };
 		3D639B352BDDE0D70067DA3B /* SwiftDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */; };
 		3D639B372BDDE3100067DA3B /* PredicateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */; };
 		3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1541562BE2039500F49794 /* ContainerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerManager.swift; sourceTree = "<group>"; };
+		3D1541592BE2127B00F49794 /* DatabaseVersion1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseVersion1.swift; sourceTree = "<group>"; };
+		3D15415B2BE212C000F49794 /* DatabaseMigrationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseMigrationPlan.swift; sourceTree = "<group>"; };
 		3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExtension.swift; sourceTree = "<group>"; };
 		3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateExtensions.swift; sourceTree = "<group>"; };
 		3DC3E7C12BDDDF1D00C178B2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
@@ -38,9 +44,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1541582BE2126200F49794 /* DatabaseMigration */ = {
+			isa = PBXGroup;
+			children = (
+				3D1541592BE2127B00F49794 /* DatabaseVersion1.swift */,
+				3D15415B2BE212C000F49794 /* DatabaseMigrationPlan.swift */,
+			);
+			path = DatabaseMigration;
+			sourceTree = "<group>";
+		};
 		3D639B332BDDE0C30067DA3B /* SwiftDataExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				3D1541582BE2126200F49794 /* DatabaseMigration */,
+				3D1541562BE2039500F49794 /* ContainerManager.swift */,
 				3D639B362BDDE3100067DA3B /* PredicateExtensions.swift */,
 				3D639B342BDDE0D70067DA3B /* SwiftDataExtension.swift */,
 			);
@@ -178,11 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D15415C2BE212C000F49794 /* DatabaseMigrationPlan.swift in Sources */,
 				3DE10E292BDDDCFB0062E7E4 /* ContentView.swift in Sources */,
+				3D15415A2BE2127B00F49794 /* DatabaseVersion1.swift in Sources */,
 				3DC3E7C22BDDDF1D00C178B2 /* ViewExtensions.swift in Sources */,
 				3D639B372BDDE3100067DA3B /* PredicateExtensions.swift in Sources */,
 				3DE10E272BDDDCFB0062E7E4 /* ExampleSwiftDataApp.swift in Sources */,
 				3D639B352BDDE0D70067DA3B /* SwiftDataExtension.swift in Sources */,
+				3D1541572BE2039500F49794 /* ContainerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

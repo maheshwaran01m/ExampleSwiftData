@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ExampleSwiftDataApp: App {
@@ -13,6 +14,8 @@ struct ExampleSwiftDataApp: App {
   var body: some Scene {
     WindowGroup {
       ContentView()
+        .onAppear { print("Path: \(URL.documentsDirectory.path())")}
     }
+    .modelContainer(ContainerManager.shared.container)
   }
 }
