@@ -28,6 +28,7 @@ struct ContentView: View {
       modelContext.insert(user)
       modelContext.saveContext()
     }
+    .buttonStyle(.borderedProminent)
   }
   
   private func delete(_ user: User) -> some View {
